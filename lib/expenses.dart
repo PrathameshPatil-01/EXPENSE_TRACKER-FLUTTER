@@ -1,3 +1,4 @@
+import 'package:expense_tracker/Widgets/expenses_list/expenses_list.dart';
 import 'package:expense_tracker/Widgets/new_expense.dart';
 import 'package:expense_tracker/models/expense.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,7 @@ class Expenses extends StatefulWidget {
 }
 
 class ExpensesState extends State<Expenses> {
-  final _registeredExpenses = [];
+  final List<Expense> _registeredExpenses = [];
   void openAddExpenseOverlay() {
     showModalBottomSheet(
       context: context,
@@ -39,6 +40,11 @@ class ExpensesState extends State<Expenses> {
           )
         ],
       ),
+      body: Column(children: [
+        Expanded(
+          child: ExpensesList(expenses: _registeredExpenses,),
+          ),
+      ]),
     );
   }
 }
