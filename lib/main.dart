@@ -4,8 +4,10 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: Expenses(),
+    MaterialApp(
+      darkTheme: ThemeData.dark(),
+      theme: ThemeData(),
+      home: const Expenses(),
     ),
   );
 }
