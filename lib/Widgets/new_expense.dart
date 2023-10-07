@@ -40,7 +40,11 @@ class NewExpenseState extends State<NewExpense> {
       showDialog(
         context: context,
         builder: (ctx) => AlertDialog(
-          title: const Text('Invalid Input'),
+          title: Text(
+            style: TextStyle(
+              color: Theme.of(context).colorScheme.secondary,
+            ),
+            'Invalid Input'),
           content: const Text(
               'Please make sure valid title, amount, date and category was entered '),
           actions: [
@@ -48,7 +52,10 @@ class NewExpenseState extends State<NewExpense> {
                 onPressed: () {
                   Navigator.pop(ctx);
                 },
-                child: const Text('Okay'))
+                child: Text(
+                  style: Theme.of(context).textTheme.titleMedium,
+                  'Okay')
+                  )
           ],
         ),
       );
@@ -56,7 +63,7 @@ class NewExpenseState extends State<NewExpense> {
     }
     widget.onAddExpense(
       Expense(
-          title: _titleController.text,
+          title: _titleController.text.toUpperCase(),
           amount: enteredAmount,
           date: _selectedDate!,
           category: _selectedCategory),
@@ -90,24 +97,30 @@ class NewExpenseState extends State<NewExpense> {
                   children: [
                   Expanded(
                     child: TextField(
+                      style: Theme.of(context).textTheme.bodyMedium,
                     controller: _titleController,
                     maxLength: 30,
-                    decoration: const InputDecoration(
-                      label: Text('Title'),
+                    decoration: InputDecoration(
+                      label: Text(
+                        style: Theme.of(context).textTheme.titleMedium,
+                        'Title'),
                     ),
-                                  ),
+                   ),
                   ),
                   const SizedBox(
                   width: 25,
                 ),
                 Expanded(
                   child: TextField(
+                    style: Theme.of(context).textTheme.bodyMedium,
                     keyboardType: TextInputType.number,
                     controller: _amountController,
                     maxLength: 30,
-                    decoration: const InputDecoration(
+                    decoration: InputDecoration(
                       prefixText: 'Rs.',
-                      label: Text('Amount'),
+                      label: Text(
+                      style: Theme.of(context).textTheme.titleMedium!,
+                        'Amount'),
                     ),
                   ),
                 ),
@@ -116,22 +129,29 @@ class NewExpenseState extends State<NewExpense> {
                 Column(
                   children: [
                     TextField(
+                    style: Theme.of(context).textTheme.bodyMedium,
                   controller: _titleController,
                   maxLength: 30,
-                  decoration: const InputDecoration(
-                    label: Text('Title'),
+                  decoration: InputDecoration(
+                    label: Text(
+                      style: Theme.of(context).textTheme.titleMedium!,
+                      'Title'),
                   ),
                 ),
                 const SizedBox(
                   height: 10,
                 ),
                 TextField(
+                  style: Theme.of(context).textTheme.bodyMedium,
                   keyboardType: TextInputType.number,
                   controller: _amountController,
                   maxLength: 30,
-                  decoration: const InputDecoration(
+                  decoration: InputDecoration(
+                    prefixStyle: Theme.of(context).textTheme.bodyMedium,
                     prefixText: 'Rs.',
-                    label: Text('Amount'),
+                    label: Text(
+                      style: Theme.of(context).textTheme.titleMedium!,
+                      'Amount'),
                   ),
                 ),
                   ],
@@ -144,11 +164,14 @@ class NewExpenseState extends State<NewExpense> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     DropdownButton(
+                      dropdownColor: Theme.of(context).colorScheme.primary,
+                        style: Theme.of(context).textTheme.bodyMedium,
                         value: _selectedCategory,
                         items: Category.values
                             .map((category) => DropdownMenuItem(
                                   value: category,
                                   child: Text(
+                                    style: Theme.of(context).textTheme.bodyMedium,
                                     category.name.toUpperCase(),
                                   ),
                                 ))
@@ -182,12 +205,17 @@ class NewExpenseState extends State<NewExpense> {
                       onPressed: () {
                         Navigator.pop(context);
                       },
-                      child: const Text('Cancel'),
+                      child:  Text(
+                        style: Theme.of(context).textTheme.bodyMedium,
+                        'Cancel'),
                     ),
                     const Spacer(),
                     ElevatedButton(
+                      style: Theme.of(context).elevatedButtonTheme.style,
                       onPressed: _submitExpenseData,
-                      child: const Text('Submit'),
+                      child:  Text(
+                        style: Theme.of(context).textTheme.bodyMedium,
+                        'Submit'),
                     )
                   ],
                 )

@@ -34,7 +34,7 @@ class Chart extends StatelessWidget {
     final isDarkMode =
         MediaQuery.of(context).platformBrightness == Brightness.dark;
     return Container(
-      margin: const EdgeInsets.all(16),
+      margin: const EdgeInsets.all(20),
       padding: const EdgeInsets.symmetric(
         vertical: 16,
         horizontal: 8,
@@ -45,8 +45,8 @@ class Chart extends StatelessWidget {
         borderRadius: BorderRadius.circular(8),
         gradient: LinearGradient(
           colors: [
-            Theme.of(context).colorScheme.primary.withOpacity(0.3),
-            Theme.of(context).colorScheme.primary.withOpacity(0.0)
+            Theme.of(context).colorScheme.primary,
+            Theme.of(context).colorScheme.onPrimary,
           ],
           begin: Alignment.bottomCenter,
           end: Alignment.topCenter,
@@ -80,8 +80,7 @@ class Chart extends StatelessWidget {
                             ? Theme.of(context).colorScheme.secondary
                             : Theme.of(context)
                                 .colorScheme
-                                .primary
-                                .withOpacity(0.7),
+                                .secondary,
                       ),
                     ),
                   ),

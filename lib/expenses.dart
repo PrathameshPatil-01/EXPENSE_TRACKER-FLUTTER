@@ -75,14 +75,19 @@ class ExpensesState extends State<Expenses> {
         ],
       ),
       body: width<600? Column (children: [
-        Expanded(child: Chart(expenses: _registeredExpenses)),
+        Chart(
+          expenses: _registeredExpenses
+        ),
         Expanded(
           child: mainContent,
         ),
       ])
       :
       Row (children: [
-        Expanded(child: Chart(expenses: _registeredExpenses)),
+        Expanded(
+          child: Chart(expenses: _registeredExpenses
+          )
+          ),
         Expanded(
           child: mainContent,
         ),
