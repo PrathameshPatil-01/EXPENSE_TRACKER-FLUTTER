@@ -40,9 +40,10 @@ class NewExpenseState extends State<NewExpense> {
       showDialog(
         context: context,
         builder: (ctx) => AlertDialog(
+          backgroundColor: Theme.of(context).colorScheme.tertiary,
           title: Text(
             style: TextStyle(
-              color: Theme.of(context).colorScheme.secondary,
+              color: Theme.of(context).colorScheme.onSecondary,
             ),
             'Invalid Input'),
           content: const Text(
@@ -53,7 +54,9 @@ class NewExpenseState extends State<NewExpense> {
                   Navigator.pop(ctx);
                 },
                 child: Text(
-                  style: Theme.of(context).textTheme.titleMedium,
+                  style: Theme.of(context).textTheme.titleMedium!.copyWith(
+                color: Theme.of(context).colorScheme.onSecondary,
+                ),
                   'Okay')
                   )
           ],

@@ -16,7 +16,8 @@ static final ThemeData lightTheme = ThemeData().copyWith(
       onPrimary: Color.fromARGB(255, 255, 255, 255),
       primaryContainer: Color.fromARGB(255, 77, 76, 76),
       secondary: Color.fromARGB(255, 0, 0, 0),
-      tertiary: Color.fromARGB(255, 255, 140, 46),
+      tertiary: Color.fromARGB(255, 255, 255, 255), 
+      onSecondary:Color.fromARGB(255, 255, 140, 46),
     ),
     cardTheme:const CardTheme(
       elevation: 15,
@@ -50,7 +51,7 @@ static final ThemeData lightTheme = ThemeData().copyWith(
     appBarTheme: const AppBarTheme(
       color: Colors.black,
       iconTheme: IconThemeData(
-        color: Colors.white,
+        color: Color.fromARGB(255, 0, 173, 181),
       ),
     ),
     colorScheme:const ColorScheme.dark(
@@ -58,6 +59,8 @@ static final ThemeData lightTheme = ThemeData().copyWith(
       onPrimary: Color.fromARGB(255, 253, 253, 253),
       primaryContainer: Color.fromARGB(255, 61, 57, 57),
       secondary: Color.fromARGB(255, 0, 173, 181),
+      tertiary: Color.fromARGB(255, 17, 18, 18),
+      onSecondary:Color.fromARGB(255, 0, 173, 181),
     ),
     cardTheme: const CardTheme(
       color: Color.fromARGB(255, 61, 60, 60),
