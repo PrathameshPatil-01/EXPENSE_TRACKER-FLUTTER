@@ -16,23 +16,19 @@ This Flutter app allows users to track their expenses across four categories: Fo
 
 ## Live Demo
 
-![Live Demo](screenshots/exp-tracker.gif)
+<img src="screenshots/exp-tracker.gif" alt="Live Demo" width="450" height="650">
 
 ## Screenshots
 
 
-| **Light Theme**                             | **Dark Theme**                               |
-|:-------------------------------------------:|:--------------------------------------------:|          
-| ![Screenshot 1](screenshots/l1.png)         | ![Screenshot 2](screenshots/d1.png) |
-|:-------------------------------------------:|:-------------------------------------------:|
-| ![Screenshot 3](screenshots/l2.png)         | ![Screenshot 4](screenshots/d2.png) |
-|:-------------------------------------------:|:-------------------------------------------:|
-| ![Screenshot 5](screenshots/l3.png)         | ![Screenshot 6](screenshots/d3.png) |
-|:-------------------------------------------:|:-------------------------------------------:|
-| ![Screenshot 7](screenshots/l4.png)         | ![Screenshot 8](screenshots/d4.png) |
-|:-------------------------------------------:|:-------------------------------------------:|
-| ![Screenshot 9](screenshots/l5.png)         | ![Screenshot 10](screenshots/d5.png) |
-|:-------------------------------------------:|:-------------------------------------------:|
+| **Light Theme**                                                        | **Dark Theme**                                                         |
+|:----------------------------------------------------------------------:|:----------------------------------------------------------------------:| 
+|<img src="screenshots/l1.png" alt="Screenshot" width="300" height="600">|<img src="screenshots/d1.png" alt="screenshot" width="300" height="600">|
+|<img src="screenshots/l2.png" alt="Screenshot" width="300" height="600">|<img src="screenshots/d2.png" alt="screenshot" width="300" height="600">|
+|<img src="screenshots/l3.png" alt="Screenshot" width="300" height="600">|<img src="screenshots/d3.png" alt="screenshot" width="300" height="600">|
+|<img src="screenshots/l4.png" alt="Screenshot" width="300" height="600">|<img src="screenshots/d4.png" alt="screenshot" width="300" height="600">|
+|<img src="screenshots/l5.png" alt="Screenshot" width="300" height="600">|<img src="screenshots/d5.png" alt="screenshot" width="300" height="600">|
+|:------------------------------------------------------------:|:------------------------------------------------------------:| 
 
 ## Features
 
