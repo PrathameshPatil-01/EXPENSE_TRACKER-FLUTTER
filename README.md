@@ -16,19 +16,42 @@ This Flutter app allows users to track their expenses across four categories: Fo
 
 ## Live Demo
 
+<div align="center">
 <img src="screenshots/exp-tracker.gif" alt="Live Demo" width="450" height="650">
+</div>
 
 ## Screenshots
 
 
-| **Light Theme**                                                        | **Dark Theme**                                                         |
-|:----------------------------------------------------------------------:|:----------------------------------------------------------------------:| 
-|<img src="screenshots/l1.png" alt="Screenshot" width="300" height="600">|<img src="screenshots/d1.png" alt="screenshot" width="300" height="600">|
-|<img src="screenshots/l2.png" alt="Screenshot" width="300" height="600">|<img src="screenshots/d2.png" alt="screenshot" width="300" height="600">|
-|<img src="screenshots/l3.png" alt="Screenshot" width="300" height="600">|<img src="screenshots/d3.png" alt="screenshot" width="300" height="600">|
-|<img src="screenshots/l4.png" alt="Screenshot" width="300" height="600">|<img src="screenshots/d4.png" alt="screenshot" width="300" height="600">|
-|<img src="screenshots/l5.png" alt="Screenshot" width="300" height="600">|<img src="screenshots/d5.png" alt="screenshot" width="300" height="600">|
-|:------------------------------------------------------------:|:------------------------------------------------------------:| 
+<div align="center">
+  <table>
+    <tr>
+      <th>Light Theme</th>
+      <th>Dark Theme</th>
+    </tr>
+    <tr>
+      <td><img src="screenshots/l1.png" alt="Screenshot" width="300" height="600"></td>
+      <td><img src="screenshots/d1.png" alt="Screenshot" width="300" height="600"></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/l2.png" alt="Screenshot" width="300" height="600"></td>
+      <td><img src="screenshots/d2.png" alt="Screenshot" width="300" height="600"></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/l3.png" alt="Screenshot" width="300" height="600"></td>
+      <td><img src="screenshots/d3.png" alt="Screenshot" width="300" height="600"></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/l4.png" alt="Screenshot" width="300" height="600"></td>
+      <td><img src="screenshots/d4.png" alt="Screenshot" width="300" height="600"></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/l5.png" alt="Screenshot" width="300" height="600"></td>
+      <td><img src="screenshots/d5.png" alt="Screenshot" width="300" height="600"></td>
+    </tr>
+  </table>
+</div>
+
 
 ## Features
 
