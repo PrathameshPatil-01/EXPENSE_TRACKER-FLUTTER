@@ -4,7 +4,7 @@ This Flutter app allows users to track their expenses across four categories: Fo
 
 ## Table of Contents 
 
-- [Live Demo](#live-demo)
+- [Demo](#demo)
 - [Screenshots](#screenshots)
 - [Features](#features)
 - [Installation](#installation)
@@ -14,7 +14,7 @@ This Flutter app allows users to track their expenses across four categories: Fo
 - [Contributing](#contributing)
 
 
-## Live Demo
+## Demo
 
 <div align="center">
 <img src="screenshots/exp-tracker.gif" alt="Live Demo" width="450" height="650">
