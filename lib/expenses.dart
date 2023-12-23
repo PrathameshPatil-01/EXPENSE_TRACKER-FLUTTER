@@ -59,7 +59,7 @@ class ExpensesState extends State<Expenses> {
           Expense(
             id: item.key,
             title: item.value['title'],
-            amount: item.value['amount'],
+            amount: item.value['amount'].toDouble(),
             date: item.value['date'],
             category: category,
           ),
