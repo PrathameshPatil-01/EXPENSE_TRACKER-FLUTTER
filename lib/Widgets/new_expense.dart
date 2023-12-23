@@ -229,7 +229,8 @@ class NewExpenseState extends State<NewExpense> {
                   const Spacer(),
                   ElevatedButton(
                     style: Theme.of(context).elevatedButtonTheme.style,
-                    onPressed: _submitExpenseData,
+                    onPressed: (){},
+                    // onPressed: _submitExpenseData,
                     child: Text(
                         style: Theme.of(context).textTheme.bodyMedium,
                         'Submit'),
