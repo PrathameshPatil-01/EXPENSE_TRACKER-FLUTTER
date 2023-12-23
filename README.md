@@ -4,8 +4,8 @@ This Flutter app allows users to track their expenses across four categories: Fo
 
 ## Table of Contents 
 
-- [Demo](#demo)
 - [Download_APK](#download-apk)
+- [Demo](#demo)
 - [Screenshots](#screenshots)
 - [Features](#features)
 - [Installation](#installation)
@@ -13,13 +13,6 @@ This Flutter app allows users to track their expenses across four categories: Fo
 - [Usage](#usage)
 - [Deleting Expenses](#deleting-expenses)
 - [Contributing](#contributing)
-
-
-## Demo
-
-<div align="center">
-<img src="screenshots/exp-tracker.gif" alt="Live Demo" width="450" height="650">
-</div>
 
 ## Download APK:
 
@@ -30,6 +23,14 @@ This Flutter app allows users to track their expenses across four categories: Fo
 ### Expense Tracker Apk
 
 [Direct download link](https://drive.google.com/file/d/1zv9E1prIK0mGyDFTzvmQwevDZCl8Wbet/view)
+
+
+## Demo
+
+<div align="center">
+<img src="screenshots/exp-tracker.gif" alt="Live Demo" width="450" height="650">
+</div>
+
 
 ## Screenshots
 
