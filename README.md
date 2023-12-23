@@ -16,13 +16,13 @@ This Flutter app allows users to track their expenses across four categories: Fo
 
 ## Download APK:
 
-<a href="https://drive.google.com/file/d/1zv9E1prIK0mGyDFTzvmQwevDZCl8Wbet/view">
+<a href="https://drive.google.com/file/d/1Tzfw-IMFL2Z20vN-klDucdVvEumGq6-n/view?usp=drive_link">
   <img src="assets/icons/icon.png" alt="Download" width="100" height="100">
 </a>
 
 ### Expense Tracker Apk
 
-[Direct download link](https://drive.google.com/file/d/1zv9E1prIK0mGyDFTzvmQwevDZCl8Wbet/view)
+[Direct download link](https://drive.google.com/file/d/1Tzfw-IMFL2Z20vN-klDucdVvEumGq6-n/view?usp=drive_link)
 
 
 ## Demo
